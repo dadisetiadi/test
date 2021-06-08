@@ -1,0 +1,9 @@
+
+
+
+Select tb_mahasiswa.mhs_id, tb_mahasiswa.mhs_nama, tb_mahasiswa_nilai.mhs_id, tb_mahasiswa_nilai.mk_id, tb_mahasiswa_nilai.nilai,
+from tb_mahasiswa, tb_mahasiswa_nilai
+where tb_mahasiswa.mhs_id=tb_mahasiswa_nilai.mhs_id
+
+SELECT mhs_id from tb_mahasiswa_nilai
+WHERE mk_id='2'
